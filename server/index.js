@@ -22,7 +22,7 @@ app.get("*", (req, res) => {
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // Replace with your client's origin URL
-  res.header("Access-Control-Allow-Methods", "GET,POST, PUT, DELETE");
+  res.header("Access-Control-Allow-Methods", "POST, PUT, DELETE");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
@@ -88,5 +88,5 @@ app.post("/api/schedule", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("Server started on Port ", PORT);
+  console.log("Server started on Port: ", PORT);
 });
