@@ -1,0 +1,266 @@
+/*************************************/
+/* BELOW 1150 px (Smaller desktops)  */
+/*************************************/
+
+@media (max-width: 82em) {
+  .section-how-content,
+  .section-featured,
+  .services,
+  .cta-container,
+  .container,
+  .footer-container {
+    max-width: 120rem;
+  }
+}
+
+@media (max-width: 75em) {
+  /* 9 /16 */
+  html {
+    font-size: 56.25%;
+  }
+
+  .service-img,
+  .bigger {
+    width: 80%;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 6.2rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .cta-details-box {
+    padding-top: 1.2rem;
+  }
+}
+
+/*************************************/
+/* BELOW 1150 px (Landscape Tablets) */
+/*************************************/
+@media (max-width: 59em) {
+  html {
+    /* 8 /16 */
+    font-size: 50%;
+  }
+  .logo {
+    height: 8rem;
+  }
+  .service-number {
+    font-size: 6.2rem;
+  }
+  .price-amount-value {
+    font-size: 15.2rem;
+  }
+  .price-amount-unit {
+    font-size: 5rem;
+  }
+  .cta-form {
+    row-gap: 3.8rem;
+  }
+  .cta-details-box {
+    padding-top: 1.4rem;
+  }
+}
+
+/*************************************/
+/*      BELOW 1150 px (Tablets)      */
+/*************************************/
+@media (max-width: 46em) {
+  .logo {
+    height: 7rem;
+  }
+  html {
+    /* 7  /16 */
+    font-size: 43.75%;
+  }
+
+  .section-how-subheading {
+    font-size: 3.2rem;
+    padding: 0 9.6rem;
+  }
+  .step-box {
+    grid-template-columns: 1fr;
+    padding: 9.6rem 9.6rem 0 9.6rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-details-box {
+    grid-row: 2/-1;
+  }
+  .cta-text-box {
+    margin-top: 3.6rem;
+    padding: 2.4rem 4.8rem;
+  }
+  .cta-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .header {
+    padding: 0 2.4rem;
+  }
+  .heading-secondary {
+    font-size: 2.8rem;
+    margin-bottom: 4.4rem;
+  }
+}
+
+/*************************************/
+/* BELOW 544 px (Phone Screens)     */
+/*************************************/
+@media (max-width: 34em) {
+  html {
+    /* 7  /16 */
+    font-size: 43.75%;
+  }
+  .logo {
+    height: 6rem;
+  }
+
+  .header-container {
+    max-width: 60rem;
+  }
+  .header-description-text {
+    font-size: 2.4rem;
+  }
+  .what-container {
+    grid-template-columns: 1fr;
+  }
+  .what-description {
+    font-size: 2.4rem;
+  }
+  .section-price {
+    height: 30rem;
+  }
+  .price-container {
+    padding: 1.2rem;
+    column-gap: 2.4rem;
+  }
+  .price-amount-value {
+    font-size: 13.2rem;
+  }
+  .price-amount-unit {
+    font-size: 4.2rem;
+  }
+  .price-description {
+    font-size: 2.4rem;
+  }
+  .how-description {
+    font-size: 2.4rem;
+  }
+  .steps {
+    grid-template-columns: 1fr;
+    row-gap: 4.2rem;
+  }
+  .step-box-description {
+    font-size: 2rem;
+  }
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .service-description {
+    font-size: 2.4rem;
+  }
+  .section-how-subheading {
+    padding: 0 6.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .services-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .services-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .services-img-box {
+    transform: translateY(2.4rem);
+  }
+  .service-img {
+    width: 70%;
+  }
+  .cta-img-box {
+    height: 72rem;
+    grid-row: 1;
+    /* transform: translateY(4.6rem); */
+  }
+}
+
+@media (max-width: 23em) {
+  .btn:link,
+  .btn:visited {
+    padding: 1.2rem 2.4rem;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .header-container {
+    max-width: 50rem;
+  }
+  .header-description-text {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  .header-button {
+    padding: 2rem;
+  }
+  .what-heading {
+    font-size: 2.8rem;
+  }
+  .what-description,
+  .how-description {
+    font-size: 2rem;
+  }
+  .logos img {
+    height: 5rem;
+  }
+  .section-price {
+    height: 25rem;
+  }
+  .price-description {
+    font-size: 1.6rem;
+  }
+  .price-amount-value {
+    font-size: 10.2rem;
+  }
+  .price-amount-unit {
+    font-size: 3rem;
+  }
+  .cta-container {
+    padding: 1.2rem 1.2rem;
+  }
+  .cta-details-box,
+  .cta-text-box {
+    padding: 1.8rem 2rem;
+  }
+  .cta-secondary {
+    font-size: 3.6rem;
+  }
+  .schedule {
+    font-size: 1.8rem;
+  }
+  .footer-container {
+    padding: 0 3.2rem;
+  }
+  .copyright {
+    font-size: 1.6rem;
+  }
+}

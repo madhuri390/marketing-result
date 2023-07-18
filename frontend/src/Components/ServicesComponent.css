@@ -1,0 +1,76 @@
+/******************************/
+/*  SERVICES SECTION          */
+/******************************/
+.services {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 9.6rem 0;
+  background-color: #222224;
+  margin-top: 6.4rem;
+  margin-bottom: 5.6rem;
+}
+
+.services-text-box {
+  padding: 2.4rem;
+}
+
+.service-img {
+  width: 65%;
+}
+
+.bigger {
+  width: 73%;
+}
+
+.service-number {
+  font-size: 7.4rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(172, 168, 168, 0.428); */
+  /* color: #d3dddd; */
+  /* color: #d7d3ea; */
+  margin-bottom: 1.6rem;
+}
+
+.service-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.services-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.services-img-box:nth-child(even) {
+  align-items: flex-end;
+}
+
+.services-img-box::after,
+.services-img-box::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* .services-img-box::before {
+  width: 60%;
+   height: 50%; 
+  padding-bottom: 60%;
+  background-color: rgba(125, 53, 53, 0.7);
+}
+
+.services-img-box::after {
+  width: 40%;
+   height: 50%; 
+  padding-bottom: 40%;
+  background-color: rgba(243, 56, 56, 0.428);
+} */

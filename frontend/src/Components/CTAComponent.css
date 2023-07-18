@@ -1,0 +1,172 @@
+/******************************/
+/*  CALL TO ACTION SECTION    */
+/******************************/
+
+.scetion-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: #5c4d9f; */
+  /* background-image: linear-gradient(to right bottom, #5c4d9f, #7063ab); */
+  /* height: 50rem; */
+}
+
+.cta-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem;
+}
+
+.cta-text-box {
+  padding: 1.2rem 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+/* .cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(92, 77, 159, 0.35),
+      rgba(31, 19, 81, 0.35)
+    ),
+    url("../img/cta-bg.png");
+  background-size: cover;
+  background-position: top;
+} */
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.8rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  /* color: inherit; */
+  border: none;
+  /* background-color: #ebe9f5; */
+}
+
+.cta-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  /* color: inherit; */
+  border: none;
+  /* background-color: #ebe9f5; */
+  margin-top: -2rem;
+  height: 10rem;
+  margin-bottom: 2.4rem;
+}
+
+/* .cta-form input::placeholder {
+  /* color: #aaa; 
+} */
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(253, 242, 233, 0.5);
+}
+
+.icons-link:link,
+.icons-link:visited {
+  text-decoration: none;
+  font-size: 3.6rem;
+  color: #fff;
+  transition: al 0.3s;
+}
+
+.icons-link:hover,
+.icons-link:visited {
+  color: #fff;
+}
+
+.cta-profile-img {
+  border-radius: 50%;
+  max-width: 26%;
+  border: 3px solid white;
+  margin-bottom: 1.6rem;
+}
+
+.schedule {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.pink-text {
+  color: rgb(252, 55, 146);
+}
+
+.cta-secondary {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+  letter-spacing: 1.5;
+}
+.cta-description {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.one,
+.two {
+  margin-bottom: 2.4rem;
+}
+
+.cta-details-box {
+  /* top left&right bottom */
+  padding: 2rem 2.4em 2.4rem;
+}
+
+.this-cta-section {
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.audit-list-item {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.check-mark-icon {
+  color: rgb(252, 55, 146);
+  font-size: 1.8rem;
+}
+
+.audit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.audit-list-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}

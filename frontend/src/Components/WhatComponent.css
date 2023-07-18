@@ -1,0 +1,53 @@
+/******************************/
+/*  WHAT SECTION              */
+/******************************/
+
+.section-what {
+  padding: 8rem 0;
+  transition: all 0.5s;
+  animation-direction: reverse;
+  margin-bottom: 8rem;
+}
+
+.what-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 4.4rem;
+}
+
+.line-divider {
+  height: 0.1rem;
+  margin-top: 4.8rem;
+  background-color: #fff;
+  margin-bottom: 6.4rem;
+}
+
+.what-container {
+  margin-top: 9.6rem;
+  max-width: 130rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  padding: 4.8rem;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.what-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.what-heading {
+  font-size: 4rem;
+  margin-bottom: 4.8rem;
+}
+
+.what-img {
+  width: 100%;
+}

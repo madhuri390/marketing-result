@@ -1,0 +1,19 @@
+/******************************/
+/*  FOOTER SECTION            */
+/******************************/
+
+.footer-container {
+  max-width: 130rem;
+  padding: 0 8rem;
+}
+.social-media-icon {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: 1.8rem;
+  align-self: center;
+  padding: 5.2rem 0;
+}
