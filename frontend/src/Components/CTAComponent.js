@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { IonIcon } from "@ionic/react";
 import { checkmarkCircle } from "ionicons/icons";
 import { useGoogleLogin } from "@react-oauth/google";
-import { ReactDialogBox } from "react-js-dialog-box";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
