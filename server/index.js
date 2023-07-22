@@ -87,8 +87,11 @@ app.post("/api/schedule", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Hi from the server");
+});
 app.listen(PORT, () => {
   console.log("Server started on Port ", PORT);
   console.log("Redirect uri " + REDIRECT_URL);
-  console.log(process.env.REDIRECT_URL);
+  console.log("Reditect uri from env " + process.env.REDIRECT_URL);
 });
