@@ -23,14 +23,11 @@ app.get("*", (req, res) => {
 app.use((req, res, next) => {
   res.header(
     "Access-Control-Allow-Origin",
-    "https://marketingresults.netlify.app/"
+    "https://marketingresults.netlify.app"
   );
-  //res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // Replace with your client's origin URL
+  //res.header("Access-Control-Allow-Origin", "http://localhost:3000");
   res.header("Access-Control-Allow-Methods", "GET,POST, PUT, DELETE");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
+  res.header("Access-Control-Allow-Headers", "Origin, Content-Type, Accept");
   next();
 });
 
@@ -85,6 +82,7 @@ app.post("/api/schedule", async (req, res) => {
         },
       },
     });
+    res.set("Content-Type", "application/javascript");
     res.send("Done");
   } catch (error) {
     res.send("Fail");
@@ -92,7 +90,8 @@ app.post("/api/schedule", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hi from the server");
+  res.set("Content-Type", "application/javascript");
+  res.json("Hi from the server");
 });
 app.listen(PORT, () => {
   console.log("Server started on Port ", PORT);
